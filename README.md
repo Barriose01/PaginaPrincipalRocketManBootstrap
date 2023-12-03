@@ -1,5 +1,5 @@
 # PaginaPrincipalRocketManBootstrap
-Layout de la pagina principal de Rocketman usando Bootstrap
+Layout de la pagina principal de Rocketman usando Bootstrap. Basado en la pagina principal de Rocketman: https://rocketman.learnwagtail.com/
 
 ![image](https://github.com/Barriose01/PaginaPrincipalRocketManBootstrap/assets/107152796/a6310c8c-4055-49e8-8783-4640b40cb92b)
 
