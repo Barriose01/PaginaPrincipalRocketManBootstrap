@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    padding: 3% 6% ;
+}
+.PrimeraSeccion{
+    color: white;
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.75) 16%, rgba(44,51,54,0.76) 96%), 
+                    url(imagenes/cohete.jpg);
+    background-size: cover; 
+    padding-top: 15%;
+    padding: 6%;
+    padding-top: 17%;
+}
+.TituloPrimeraSeccion{
+    font-size: 3.5rem;
+    max-width: 45%;
+}
+.ParrafoPrimeraSeccion{
+    font-size: 1.8rem;
+}
+.Boton{
+    font-size: 1.3rem;
+    padding: 1%;
+    margin-bottom: 13%;
+    width: 20%;
+}
+
+.Contenido{
+    margin: auto 6%;
+}
+
+.PrimerGrid{
+    margin-bottom: 10%;
+}
+
+.BotonBloqueAbsolute{
+    width: auto;
+    margin-bottom: 0;
+}
+.ParrafoValuable{
+    padding: 10% 0;
+}
+.ContenidoCard{
+    padding-bottom: 15%;
+}
+.Imagen{
+    width: 100%;
+}
+
+.LinkCards{
+    text-decoration: none;
+    color: #824ec5;
+    font-weight: bold;
+}
+.BloqueAbsolute{
+    background-color: #303030;
+    color: white;
+}
+
+.FilaSegundoGrid{
+    margin-bottom: 15%;
+}
+.BTNTercerGrid{
+    background-color: #814ebf;
+    color: white;
+    transition: 0.2s;
+}
+.BTNTercerGrid:hover{
+    filter: brightness(85%);
+}
+.Cita{
+    max-width: 60%;
+}
+.BloqueFlex{
+    margin-top: 10%;
+    background-color: #8d5fc5;
+    color: white;
+    padding: 6%;
+}
+.TextoFlex{
+    flex-basis: 63%;
+}
+.BloqueBTN{
+    flex-basis: 37%;
+}
+.Footer{
+    color: white;
+    padding: 6%;
+}
+.TitulosFooter{
+    color:#858585
+}
+.LinksFooter{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (min-width:992px){
+    .ImagenesSegundoGrid{
+        width: 70%;
+    }
+    .ContenidoSegundoGrid{
+        position: relative;
+    }
+    .BloqueAbsolute{
+        padding: 15%;
+        width: 45%;
+        position: absolute;
+        right: 5%;
+        bottom: -12%;
+    }
+    .SegundoBloqueAbsolute{
+        left: 5%;
+    }
+    .SegundaImagenSegundoGrid{
+        float: right;
+    }
+    .BotonBloqueAbsolute{
+        padding: 5%;
+    }
+
+
+}
